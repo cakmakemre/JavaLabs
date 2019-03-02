@@ -5,7 +5,7 @@
  */
 package javalab5a;
 
-public class Cosmeticss {
+public class Cosmetics {
 
     private String name;
     private double price;
@@ -15,7 +15,7 @@ public class Cosmeticss {
     private int grammage;
 
     
-   public Cosmeticss() {
+   public Cosmetics() {
         this.name="Vaseline";
         this.price=2.0;
         this.ingredients="Aqua,Glycerinn,SLS";
@@ -24,12 +24,12 @@ public class Cosmeticss {
         this.grammage=100;
     }
 
-    public Cosmeticss(String name, double price) {
+    public Cosmetics(String name, double price) {
         this.name = name;
         this.price = price;
     }
     
-     public Cosmeticss(String nameof, String expire_date) {
+     public Cosmetics(String nameof, String expire_date) {
         this.name = nameof;
         this.expire_date = expire_date;
     }
