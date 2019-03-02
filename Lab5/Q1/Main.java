@@ -8,14 +8,14 @@ public class Main {
         
         //Creating Objects in main.
 
-        Cosmeticss cos = new Cosmeticss();   
+        Cosmetics cos = new Cosmetics();   
         //cos.display();
 
         //Calling 
-        Cosmeticss cos1 = new Cosmeticss("Powder", 121);
+        Cosmetics cos1 = new Cosmetics("Powder", 121);
         cos1.display();
 
-        Cosmeticss cos2 = new Cosmeticss("Cream", "2019");
+        Cosmetics cos2 = new Cosmetics("Cream", "2019");
         cos2.display();
         
 
