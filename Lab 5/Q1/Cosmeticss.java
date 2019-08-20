@@ -53,6 +53,6 @@ public class Cosmeticss {
         System.out.println("Expire date: "+expire_date);
         System.out.println("Brand: "+brand);
         System.out.println("Gramage: "+grammage+"\n");
-       
+        System.out.println("Hello");
 }
 }
